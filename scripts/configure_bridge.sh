@@ -6,8 +6,8 @@
 cd /Proxmox-Debian12
 
 # Load configs files // Carregar os arquivos de configuração
-source ./configs/colors.conf
-source ./configs/language.conf
+source ../configs/colors.conf
+source ../configs/language.conf
 
 # Becoming superuser // Tornando-se superusuário
 super_user()
@@ -25,7 +25,7 @@ super_user()
 
 configure_bridge()
 {
-    config_file="configs/network.conf"
+    config_file="../configs/network.conf"
 
     # Check if the configuration file exists
     if [ ! -f "$config_file" ]; then

@@ -6,8 +6,8 @@
 cd /Proxmox-Debian12
 
 # Load configs files // Carregar os arquivos de configuração
-source ./configs/colors.conf
-source ./configs/language.conf
+source ../configs/colors.conf
+source ../configs/language.conf
 
 install_proxmox-1() 
 {

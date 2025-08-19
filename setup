@@ -6,7 +6,7 @@
 cd /Proxmox-Debian12 && clear
 
 # Load configs files // Carregar os arquivos de configuração
-source ../configs/*
+source ./configs/*
 
 # Function to display the language choice menu // Função para exibir o menu de escolha de linguagem
 show_language_menu() 
